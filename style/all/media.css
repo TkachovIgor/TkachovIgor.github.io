@@ -1,0 +1,887 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "h1";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "p-light";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "p-h";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@media (min-width: 769px) {
+  main .meet .conteiner3 .big {
+    display: flex;
+  }
+  .meet .conteiner3 .big .card3-1 {
+    display: none;
+  }
+  main .meet .conteiner3 .too {
+    display: none;
+  }
+  main .meet .conteiner3 .too2 {
+    display: none;
+  }
+  .discover .header {
+    font-size: 22px;
+    margin-top: 90px;
+  }
+  .discover .conteiner4 .topp {
+    width: 100%;
+  }
+  .discover .conteiner4 .topp .top {
+    width: 236px;
+    height: 310px;
+    background-image: url(../img/1\(1440\).png);
+  }
+  .discover .conteiner4 .topp .top1 {
+    width: 236px;
+    height: 310px;
+    margin-right: 19px;
+    margin-left: 20px;
+    background-image: url(../img/2\(1440\).png);
+  }
+  .discover .conteiner4 .topp .top2 {
+    width: 236px;
+    height: 310px;
+    margin-left: 5px;
+    background-image: url(../img/3\(1440\).png);
+  }
+  .discover .conteiner4 .center {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .discover .conteiner4 .center .center1 {
+    width: 246px;
+    height: 310px;
+    background-image: url(../img/4\(1440\).png);
+  }
+  .discover .conteiner4 .center .center2 {
+    width: 512px;
+    height: 310px;
+    margin-right: 0;
+    background-image: url(../img/5\(1440\).png);
+  }
+  .discover .conteiner4 .buttomm {
+    width: 100%;
+  }
+  .discover .conteiner4 .buttomm .buttom1 {
+    width: 534px;
+    height: 310px;
+    background-image: url(../img/6\(1440\).png);
+  }
+  .discover .conteiner4 .buttomm .buttom2 {
+    width: 256px;
+    height: 310px;
+    margin-right: 0;
+    background-image: url(../img/7\(1440\).png);
+  }
+}
+@media (max-width: 768px) {
+  header .conteiner .logo .logoleft {
+    margin-left: -67px;
+  }
+  header .conteiner .logo .bottom {
+    width: 54%;
+  }
+  header .conteiner .logo .bottom .login {
+    width: 641px;
+  }
+  header .conteiner .logo .bottom .login .log {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  header .conteiner .logo .bottom .singup .si {
+    margin-left: 10px;
+    height: 33px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  header .conteiner .share h1 {
+    margin-left: -2px;
+  }
+  header .conteiner .share .p {
+    margin-top: 20px;
+  }
+  main .how .conteiner2 {
+    width: 748px;
+    width: 97%;
+    margin: 0 auto;
+  }
+  main .how .header {
+    margin-top: 95px;
+    font-family: "p-h";
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    color: #444444;
+  }
+  main .how .conteiner2 .pictures .padding .step {
+    height: 20px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+    margin-left: -3px;
+    letter-spacing: 2px;
+  }
+  main .how .conteiner2 .pictures .padding .h2in {
+    font-size: 22px;
+    line-height: 15px;
+    margin-left: -2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 34px;
+  }
+  main .how .conteiner2 .pictures2 .h2in2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-left: -3px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+  }
+  main .how .conteiner2 .pictures .padding .p-in {
+    margin-left: -4px;
+    margin-bottom: -6px;
+  }
+  main .meet .header1 {
+    margin-top: 91px;
+    font-size: 20px;
+    margin-left: 1px;
+    letter-spacing: 1px;
+  }
+  main .meet .conteiner3 {
+    width: 748px;
+    height: 583px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  main .meet .conteiner3 .big {
+    display: none;
+  }
+  main .meet .conteiner3 .too {
+    margin-left: 100px;
+    margin-top: -42px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  main .meet .conteiner3 .too .card1 {
+    margin-top: 41px;
+    width: 294px;
+    /* margin-bottom: 61px; */
+    height: 352px;
+  }
+  main .meet .conteiner3 .too .card1 .p-in2 {
+    margin-top: 24px;
+    margin-left: -1px;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+    width: 237px;
+  }
+  main .meet .conteiner3 .too .card2 {
+    width: 240px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -92px;
+    flex-wrap: nowrap;
+    margin-left: 26px;
+  }
+  main .meet .conteiner3 .too2 {
+    margin-left: 40px;
+    margin-top: -2px;
+  }
+  main .meet .conteiner3 .too2 .card3 {
+    width: 54%;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 70px;
+  }
+  main .meet .conteiner3 .too2 .card3 .p-in3 {
+    margin-top: 29px;
+    margin-left: 10px;
+    width: 243px;
+  }
+  main .meet .conteiner3 .too2 .card4 {
+    width: 57%;
+    height: 329px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 37px;
+    margin-left: -5px;
+  }
+  main .meet .conteiner3 .too2 .card4 .p-in3 {
+    margin-top: 24px;
+    width: 236px;
+  }
+  main .meet .buttom {
+    margin-top: -47px;
+    margin-left: 3px;
+  }
+  main .discover .header {
+    font-size: 22px;
+    margin-top: 90px;
+  }
+  main .discover .conteiner4 {
+    width: 748px;
+    width: 97%;
+  }
+  main .discover .conteiner4 .topp {
+    width: 100%;
+  }
+  main .discover .conteiner4 .topp .top {
+    width: 236px;
+    height: 310px;
+    background-image: url(../img/1\(768\).png);
+  }
+  main .discover .conteiner4 .topp .top1 {
+    width: 236px;
+    height: 310px;
+    margin-right: 19px;
+    margin-left: 21px;
+    background-image: url(../img/2\(768\).png);
+  }
+  main .discover .conteiner4 .topp .top2 {
+    width: 236px;
+    height: 310px;
+    background-image: url(../img/3\(768\).png);
+  }
+  main .discover .conteiner4 .center {
+    margin-top: 20px;
+    width: 100%;
+  }
+  main .discover .conteiner4 .center .center1 {
+    width: 246px;
+    height: 310px;
+    background-image: url(../img/4\(768\).png);
+  }
+  main .discover .conteiner4 .center .center2 {
+    width: 512px;
+    height: 310px;
+    margin-right: 0;
+    background-image: url(../img/5\(768\).png);
+  }
+  main .discover .conteiner4 .buttomm {
+    width: 100%;
+  }
+  main .discover .conteiner4 .buttomm .buttom1 {
+    width: 534px;
+    height: 310px;
+    background-image: url(../img/6\(768\).png);
+  }
+  main .discover .conteiner4 .buttomm .buttom2 {
+    width: 256px;
+    height: 310px;
+    margin-right: 0;
+    background-image: url(../img/7\(768\).png);
+  }
+  main .creat .header {
+    font-size: 22px;
+    margin-top: 92px;
+    margin-left: 1px;
+  }
+  main .creat .p {
+    font-size: 16px;
+  }
+  main .creat .password {
+    margin-top: 27px;
+  }
+  footer .foot .box {
+    width: 100%;
+  }
+  footer .foot .box .left {
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 6px;
+  }
+  footer .foot .box .left1 {
+    font-size: 14px;
+    align-items: center;
+    margin-left: 19px;
+  }
+  footer .foot .box .left1 .ap {
+    display: none;
+  }
+  footer .foot .box .left1 .ap3 {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-left: -31px;
+    letter-spacing: -0.5px;
+  }
+  footer .foot .box .left1 .ap3 .a {
+    font-size: 12px;
+    margin-top: 16px;
+    margin-left: -2px;
+    letter-spacing: 0.2px;
+  }
+  footer .foot .box .left1 .ap3 .a1 {
+    margin-top: 12px;
+    margin-left: 8px;
+    font-size: 13px;
+  }
+  footer .foot .box .left1 .ap3 .a2 {
+    margin-top: 13px;
+    margin-left: -8px;
+    font-size: 13px;
+  }
+  footer .foot .box .left1 .ap3 .a3 {
+    margin-top: 14px;
+    margin-left: -12px;
+  }
+  footer .foot .box .left1 .ap3 .a4 {
+    margin-top: 14px;
+    margin-left: 70px;
+    font-size: 13px;
+  }
+  footer .foot .box .left1 .ap3 .a5 {
+    margin-top: 14px;
+    margin-left: -12px;
+  }
+  footer .foot .box .left1 .ap2 {
+    display: none;
+  }
+  footer .foot .box .right {
+    font-size: 14px;
+    width: 19%;
+    margin-left: 42px;
+    margin-top: -1px;
+  }
+  footer .foot .box .right1 {
+    width: 18%;
+    margin-left: 7px;
+  }
+  footer .foot .box .right1 .img {
+    width: 110px;
+    margin-top: 6px;
+  }
+}
+@media (max-width: 604px) {
+  header .conteiner {
+    width: 100%;
+    max-width: 310px;
+    margin-left: 10px;
+    background-image: url(../img/Background320.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  header .conteiner .logo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  header .conteiner .logo .logoleft {
+    margin-top: 98px;
+    margin-bottom: -59px;
+    margin-left: 15px;
+  }
+  header .conteiner .logo .bottom {
+    width: 54%;
+    margin-left: -26px;
+  }
+  header .conteiner .share h1 {
+    width: 92%;
+    height: 3px;
+    font-size: 29px;
+    font-weight: 100;
+    margin-top: -52px;
+    margin-bottom: -4px;
+    /* line-height: 54px; */
+    margin-left: 10px;
+    line-height: 39px;
+    letter-spacing: 0.4px;
+  }
+  header .conteiner .share {
+    height: 64.1%;
+  }
+  header .conteiner .share .find {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "p-light";
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF4E50;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 22px;
+    margin-left: 13px;
+  }
+  header .conteiner .share .p {
+    display: none;
+  }
+  header .conteiner .share .p320 {
+    margin-top: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  header .conteiner .share .p320 .verh {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 16;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -34px;
+  }
+  header .conteiner .share .p320 .niz {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 16;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+  main .how {
+    margin-top: -12px;
+  }
+  main .how .header {
+    margin: 0;
+  }
+  main .how .conteiner2 {
+    width: 97%;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 816px;
+  }
+  main .how .conteiner2 .pictures {
+    background-image: url(../img/Step320.png);
+    width: 100%;
+    max-width: 300px;
+    height: 240px;
+    margin: 0;
+  }
+  main .how .conteiner2 .pictures .padding .step {
+    margin-bottom: 11px;
+    margin-left: -3px;
+  }
+  main .how .conteiner2 .pictures .padding .h2in {
+    font-size: 21px;
+    letter-spacing: 27px;
+    line-height: 15px;
+    margin-left: -3px;
+    letter-spacing: 1.9px;
+    margin-bottom: 16px;
+    margin-top: 34px;
+  }
+  main .how .conteiner2 .pictures .padding .p-in {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -4px;
+    margin-bottom: -7px;
+  }
+  main .how .conteiner2 .pictures2 {
+    margin-left: 0;
+    margin-top: 10px;
+    background-image: url(../img/Bitmap320.png);
+    width: 100%;
+    max-width: 300px;
+    height: 240px;
+  }
+  main .how .conteiner2 .pictures2 .padding .step {
+    margin-bottom: 22px;
+    margin-left: -4px;
+  }
+  main .how .conteiner2 .pictures2 .padding .h2in2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-left: -3px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  main .how .conteiner2 .pictures2 .padding .p-in {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: inherit;
+    margin-left: -5px;
+    margin-bottom: -8px;
+  }
+  main .how .conteiner2 .pictures3 {
+    margin-left: 0;
+    margin-top: 10px;
+    background-image: url(../img/last320.png);
+    width: 100%;
+    max-width: 300px;
+    height: 240px;
+  }
+  main .how .conteiner2 .pictures3 .padding .step {
+    margin-bottom: 10px;
+    margin-left: -4px;
+  }
+  main .how .conteiner2 .pictures3 .padding .h2in {
+    font-size: 21px;
+    letter-spacing: 27px;
+    line-height: 15px;
+    margin-left: -3px;
+    letter-spacing: 1.9px;
+    margin-bottom: 14px;
+    margin-top: 34px;
+  }
+  main .how .conteiner2 .pictures3 .padding .p-in {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -5px;
+    margin-bottom: -4px;
+    text-align: inherit;
+  }
+  main .meet {
+    margin-top: 160px;
+  }
+  main .meet .header1 {
+    margin-top: -1px;
+    font-size: 20px;
+    margin-left: 1px;
+    letter-spacing: 1px;
+    line-height: 27px;
+  }
+  main .meet .conteiner3 {
+    width: 100%;
+    max-width: 320px;
+  }
+  main .meet .conteiner3 .too,
+main .meet .conteiner3 .too2 {
+    display: none;
+  }
+  main .meet .conteiner3 .big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .meet .conteiner3 .big .card1 {
+    width: 80%;
+    margin-top: 405px;
+  }
+  main .meet .conteiner3 .big .card3 {
+    display: none;
+  }
+  main .meet .conteiner3 .big .card3-1 {
+    width: 80%;
+    margin-top: -35px;
+  }
+  main .meet .conteiner3 .big .card2 {
+    width: 80%;
+    margin-top: -16px;
+  }
+  main .meet .conteiner3 .big .card4 {
+    width: 80%;
+    margin-top: -35px;
+  }
+  main .meet .buttom {
+    margin-top: 365px;
+    width: 276px;
+  }
+  main .discover .header {
+    display: block;
+    margin-top: 33px;
+    letter-spacing: -1px;
+    line-height: 27px;
+    width: 67%;
+    font-size: 24px;
+  }
+  main .discover .conteiner4 {
+    width: 100%;
+  }
+  main .discover .conteiner4 .topp,
+main .discover .conteiner4 .center,
+main .discover .conteiner4 .buttomm {
+    display: none;
+  }
+  main .discover .conteiner4 .topp2 {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .discover .conteiner4 .topp2 .top {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-image: url(../img/Sport320.png);
+    background-position: center;
+    margin-top: 20px;
+  }
+  main .discover .conteiner4 .topp2 .top1 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discaver2\ 320.png);
+    margin-top: 11px;
+    margin-bottom: 9px;
+  }
+  main .discover .conteiner4 .topp2 .top2 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discave\ 3\ 320.png);
+  }
+  main .discover .conteiner4 .topp2 .center1 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discave\ 4\ 320.png);
+    margin-top: 9px;
+  }
+  main .discover .conteiner4 .topp2 .center2 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discave\ 5\ 320.png);
+    margin-top: 10px;
+  }
+  main .discover .conteiner4 .topp2 .buttom1 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discave\ 6\ 320.png);
+    margin-top: 10px;
+  }
+  main .discover .conteiner4 .topp2 .buttom2 {
+    width: 97%;
+    max-width: 300px;
+    height: 120px;
+    background-position: center;
+    background-image: url(../img/discave\ 7\ 320.png);
+    margin-top: 10px;
+  }
+  main .creat .header {
+    margin-top: 47px;
+    width: 93%;
+    font-size: 21px;
+    margin-left: 12px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+  }
+  main .creat .p {
+    margin-top: 29px;
+    letter-spacing: -0.1px;
+    font-size: 16px;
+  }
+  main .creat .password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
+  main .creat .password .userform {
+    width: 90%;
+  }
+  main .creat .password .userform .pass {
+    width: 271px;
+  }
+  main .creat .password .butt {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  main .creat .password .butom {
+    width: 283px;
+  }
+  footer .hr {
+    margin-top: 40px;
+    border: 1px solid red;
+  }
+  footer .foot .box {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .foot .box .left {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 2px;
+  }
+  footer .foot .box .left1 {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -19px;
+    font-size: 15px;
+    margin-left: -1px;
+    letter-spacing: -1px;
+  }
+  footer .foot .box .left1 .ap {
+    display: none;
+  }
+  footer .foot .box .left1 .ap3 {
+    display: none;
+  }
+  footer .foot .box .left1 .ap2 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #444444;
+  }
+  footer .foot .box .left1 .ap2 .verh {
+    margin-top: 9px;
+    width: 192px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+    color: #444444;
+  }
+  footer .foot .box .left1 .ap2 .verh .a1 {
+    margin-left: -15px;
+    padding-left: 14px;
+  }
+  footer .foot .box .left1 .ap2 .verh .a2 {
+    padding-left: 14px;
+  }
+  footer .foot .box .left1 .ap2 .verh .a3 {
+    padding-left: 14px;
+    margin-left: 1px;
+  }
+  footer .foot .box .left1 .ap2 .verh .a4 {
+    padding-left: 10px;
+    margin-left: 5px;
+  }
+  footer .foot .box .left1 .ap2 .niz {
+    margin-top: 12px;
+    width: 157px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+    color: #444444;
+  }
+  footer .foot .box .left1 .ap2 .niz .a5 {
+    margin-left: -7px;
+    letter-spacing: 0.5px;
+  }
+  footer .foot .box .right {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-top: -103px;
+    font-size: 14px;
+    margin-left: -2px;
+  }
+  footer .foot .box .right1 {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -19px;
+    letter-spacing: 0.5px;
+    margin-left: 1px;
+  }
+  footer .foot .box .right1 .img {
+    width: 110px;
+    margin-top: 7px;
+  }
+}/*# sourceMappingURL=media.css.map */

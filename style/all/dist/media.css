@@ -1,0 +1,329 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "h1";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "p-light";
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "p-h";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@media (min-width: 769px) {
+  main .meet .conteiner3 .big {
+    display: flex;
+  }
+
+  main .meet .conteiner3 .too {
+    display: none;
+  }
+
+  main .meet .conteiner3 .too2 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header .conteiner .logo .logoleft {
+    margin-left: -67px;
+  }
+  header .conteiner .logo .bottom {
+    width: 54%;
+  }
+  header .conteiner .logo .bottom .login {
+    width: 641px;
+  }
+  header .conteiner .logo .bottom .login .log {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  header .conteiner .logo .bottom .singup .si {
+    margin-left: 10px;
+    height: 33px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  header .conteiner .share h1 {
+    margin-left: -2px;
+  }
+  header .conteiner .share .p {
+    margin-top: 20px;
+  }
+
+  main .how .conteiner2 {
+    width: 748px;
+  }
+  main .how .header {
+    margin-top: 95px;
+    font-family: "p-h";
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    color: #444444;
+  }
+  main .how .conteiner2 .pictures .padding .step {
+    height: 20px;
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+    margin-left: -3px;
+    letter-spacing: 2px;
+  }
+  main .how .conteiner2 .pictures .padding .h2in {
+    font-size: 22px;
+    line-height: 15px;
+    margin-left: -2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 34px;
+  }
+  main .how .conteiner2 .pictures2 .h2in2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-left: -3px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+  }
+  main .how .conteiner2 .pictures .padding .p-in {
+    margin-left: -4px;
+    margin-bottom: -6px;
+  }
+  main .meet .header1 {
+    margin-top: 91px;
+    font-size: 20px;
+    margin-left: 1px;
+    letter-spacing: 1px;
+  }
+  main .meet .conteiner3 {
+    width: 748px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  main .meet .conteiner3 .big {
+    display: none;
+  }
+  main .meet .conteiner3 .too {
+    margin-left: 126px;
+    margin-top: -3px;
+  }
+  main .meet .conteiner3 .too2 {
+    margin-left: 16px;
+    margin-top: -2px;
+  }
+  main .meet .conteiner3 .card {
+    width: 236px;
+    height: 205px;
+  }
+  main .meet .conteiner3 .card .h2in {
+    margin-top: 20px;
+    margin-left: 0px;
+    line-height: 14px;
+    font-size: 14px;
+  }
+  main .meet .conteiner3 .card1 .p-in2 {
+    margin-top: 24px;
+    margin-left: -1px;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+  }
+  main .meet .conteiner3 .card1 {
+    margin-top: 0;
+  }
+  main .meet .conteiner3 .card .p-in3 {
+    margin-top: 26px;
+    margin-left: -4px;
+    font-size: 15px;
+    letter-spacing: -1px;
+  }
+  main .meet .conteiner3 .card .img2 {
+    margin-top: 19px;
+  }
+  main .meet .buttom {
+    margin-top: -44px;
+    margin-left: 3px;
+  }
+  main .discover .conteiner4 {
+    width: 748px;
+  }
+  main .discover .conteiner4 .topp .top {
+    width: 236px;
+    height: 310px;
+  }
+  main .discover .conteiner4 .topp .top1 {
+    width: 236px;
+    height: 310px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  main .discover .conteiner4 .conteiner4 .topp .top2 {
+    width: 236px;
+    height: 310px;
+  }
+  main .discover .conteiner4 .topp {
+    width: 748px;
+  }
+  main .discover .conteiner4 .center .center1 {
+    width: 236px;
+    height: 310px;
+  }
+  main .discover .conteiner4 .center .center2 {
+    width: 492px;
+    height: 310px;
+  }
+  main .discover .conteiner4 .buttom .buttom1 {
+    width: 492px;
+    height: 310px;
+  }
+  main .discover .conteiner4 .buttom .buttom2 {
+    width: 236px;
+    height: 310px;
+  }
+
+  footer .foot .box {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  header .conteiner {
+    width: 97%;
+    max-width: 310px;
+    margin-left: 10px;
+  }
+  header .conteiner .logo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  header .conteiner .logo .logoleft {
+    margin-left: 0;
+    margin-top: 64px;
+    margin-bottom: -39px;
+  }
+  header .conteiner .share h1 {
+    width: 92%;
+    font-size: 31px;
+    font-weight: 100;
+  }
+
+  main .how {
+    margin-top: 160px;
+  }
+  main .how .header {
+    margin-top: 42px;
+  }
+  main .how .conteiner2 {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 816px;
+  }
+  main .how .conteiner2 .pictures {
+    width: 100%;
+    max-width: 300px;
+    height: 240px;
+    margin-left: 0;
+  }
+  main .how .conteiner2 .pictures2 {
+    margin-left: 0;
+  }
+  main .how .conteiner2 .pictures2 {
+    margin-left: 0;
+  }
+  main .meet {
+    margin-top: 160px;
+  }
+  main .meet .conteiner3 {
+    width: 100%;
+    max-width: 320px;
+  }
+  main .meet .conteiner3 .too,
+main .meet .conteiner3 .too2 {
+    display: none;
+  }
+  main .meet .conteiner3 .big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .meet .conteiner3 .big .card1 {
+    width: 40%;
+    margin-top: 100px;
+  }
+  main .meet .conteiner3 .big .card2 {
+    width: 40%;
+    margin-top: 25px;
+  }
+  main .meet .conteiner3 .big .card3 {
+    width: 40%;
+    margin-top: 25px;
+  }
+  main .meet .conteiner3 .big .card4 {
+    width: 40%;
+    margin-top: 25px;
+  }
+  main .meet .bottom {
+    margin-top: 20px;
+  }
+}

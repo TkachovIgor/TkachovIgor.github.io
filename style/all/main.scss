@@ -1,0 +1,523 @@
+@import "reset.scss";
+@import "mixin.scss";
+@import "media.scss";
+@import "fonds.scss";
+@import "style.scss";
+
+
+.conteiner {
+    width: 1440px;
+    background-image: url(../img/Background.png);
+    @include bigcont (700px);
+    background-position: center;
+
+
+    .logo {
+        @include bigcont (16.5%);
+        display: flex;
+
+
+        .logoleft {
+            width: 50%;
+            margin-left: -33px;
+            margin-top: 2px;
+            @include flex-center;
+            text-decoration: none;
+            @include h2black (19px, $White);
+            letter-spacing: 1px;
+        }
+
+        .bottom {
+            width: 50%;
+            display: flex;
+
+            .login {
+                width: 61%;
+                height: 100%;
+                @include flex-center;
+                align-items: end;
+                margin-left: 2px;
+
+                .log {
+                    margin-right: 10px;
+                    @include text (16px, $White);
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+
+            .singup {
+                width: 59%;
+                height: 100%;
+                @include flex-center;
+                align-items: start;
+
+                .si {
+                    @include buttom-red (87px, 36px, 18px, 16px, none, );
+                    border: 2px solid #FFFFFF;
+                    vertical-align: auto;
+                    @include flex-center;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin-left: 1px;
+                }
+
+            }
+
+        }
+
+
+    }
+
+    .share {
+        width: 100%;
+        @include flex-center;
+
+        h1 {
+            width: 476px;
+            height: 145px;
+            margin-top: 99px;
+            margin-right: -1px;
+            line-height: 61px;
+            margin-left: 2px;
+            @include flex-center;
+            font-family: 'h1';
+            font-weight: 200;
+            font-size: 51px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .p {
+            margin-top: 18px;
+            @include text (21px, $White);
+        }
+
+        .p320 {
+            display: none;
+        }
+
+        .find {
+            margin-top: 38px;
+            @include buttom-red (225px, 40px, 20px, 15px, $red);
+
+        }
+    }
+}
+
+.how {
+    @include bigcont (556px);
+    @include flex-center;
+
+    .header {
+        @include flex-center;
+        margin-top: 90px;
+        @include bigcont (32px);
+        @include h2black (26px, $black);
+    }
+
+    .conteiner2 {
+        width: 97%;
+        max-width: 940px;
+        height: 480px;
+        display: flex;
+        align-items: center;
+
+        .pictures {
+            width: 33%;
+            height: 400px;
+            margin-top: 38px;
+            background-image: url(../img/Step\ 1\ image.svg);
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .padding {
+                padding: 24px;
+                height: 195px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .step {
+                    @include buttom-red (70px, 20px, 10px, 14px, $red);
+                    margin-bottom: 7px;
+                }
+
+                .h2in {
+                    margin-top: 15px;
+                    @include h2black (24px, $White);
+                    text-align: left;
+                    margin-bottom: 17px;
+                }
+
+                .p-in {
+                    margin-top: 10px;
+                    @include text (13px, $White);
+                    text-align: left;
+                    margin-bottom: -1px;
+                }
+            }
+
+        }
+
+        .pictures2 {
+            @extend .pictures;
+            background-image: url(../img/Step\ 1\ image2.png);
+            margin-left: 19px;
+
+            .h2in2 {
+                margin-top: 15px;
+                @include h2black (24px, $White);
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        }
+
+        .pictures3 {
+            @extend .pictures;
+            background-image: url(../img/Step\ 1\ image3.png);
+            margin-left: 21px;
+        }
+    }
+
+
+}
+
+.meet {
+    width: 100%;
+    @include flex-center;
+    margin: 0 auto;
+
+    // background: blue;
+    .header1 {
+        @include flex-center;
+        margin-top: 89px;
+        margin-left: 3px;
+        @include bigcont (32px);
+        @include h2black (26px, $black);
+    }
+
+    .conteiner3 {
+        width: 97%;
+        max-width: 958px;
+        // height: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card1 {
+            width: 25%;
+            height: 256px;
+            @include flex-center;
+            justify-content: flex-start;
+            margin-top: 35px;
+
+
+            .img {
+                width: 120px;
+                height: 120px;
+
+                background-image: url(../img/Avatar1.png);
+            }
+        }
+
+        .card2 {
+            width: 25%;
+            height: 256px;
+            @include flex-center;
+            justify-content: flex-start;
+            margin-top: 35px;
+
+            .img2 {
+                width: 120px;
+                height: 120px;
+                background-image: url(../img/Avatar2.png);
+            }
+        }
+
+        .card3,
+        .card3-1 {
+            width: 25%;
+            height: 256px;
+            @include flex-center;
+            justify-content: flex-start;
+            margin-top: 35px;
+
+            .p-in3 {
+                margin-top: 29px;
+                margin-left: 10px;
+            }
+
+            .img3 {
+                width: 120px;
+                height: 120px;
+                background-image: url(../img/Avatar3.png);
+            }
+        }
+
+        .card4 {
+            width: 25%;
+            height: 256px;
+            @include flex-center;
+            justify-content: flex-start;
+            margin-top: 35px;
+
+            .img4 {
+                width: 120px;
+                height: 120px;
+                background-image: url(../img/Avatar4.png);
+            }
+        }
+
+        .h2in {
+            @include h2black (14px, $black);
+            margin-top: 20px;
+        }
+
+        .p-in2 {
+            margin-top: 24px;
+            @include text (13px, $black);
+            text-align: center;
+        }
+
+        .p-in3 {
+            margin-top: 24px;
+            @include text (13px, $black);
+            text-align: center;
+        }
+    }
+}
+
+.buttom {
+    @include buttom-red (174px, 38px, 20px, 14px, $White, );
+    border: 2px solid $red;
+    color: $red;
+    font-weight: 600;
+    font-family: 'h1';
+    margin-top: 4px;
+    margin-left: 8px;
+
+}
+
+
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+        @include flex-center;
+        margin-top: 89px;
+        @include bigcont (32px);
+        @include h2black (26px, $black);
+    }
+
+    .conteiner4 {
+        // width: 1440px;
+        // height: 480px;
+        width: 100%;
+        max-width: 940px;
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .topp {
+            flex-direction: row;
+            margin-top: -2px;
+            width: 100%;
+            max-width: 940px;
+            display: flex;
+
+            .top {
+                width: 32%;
+                height: 310px;
+            }
+
+            .top1 {
+                width: 32%;
+                height: 310px;
+                margin-right: 16px;
+                margin-left: 20px;
+            }
+
+            .top2 {
+                width: 32%;
+                height: 310px;
+                margin-left: 5px;
+            }
+
+        }
+
+        .center {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 17px;
+            width: 100%;
+            max-width: 940px;
+
+            .center1 {
+                width: 32%;
+                height: 310px;
+                margin-right: 20px;
+            }
+
+            .center2 {
+                width: 66%;
+                height: 310px;
+                // margin-right: 20px;
+            }
+        }
+
+        .buttomm {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 940px;
+
+            .buttom1 {
+                width: 71%;
+                height: 310px;
+                margin-right: 20px;
+            }
+
+            .buttom2 {
+                width: 34%;
+                height: 310px;
+                // margin-right: 20px;
+            }
+        }
+    }
+}
+
+.creat {
+    .header {
+        @include flex-center;
+        margin-top: 93px;
+        @include bigcont (32px);
+        @include h2black (26px, $black);
+    }
+
+    .p {
+        @include text (15px, $black);
+        margin-top: 50px;
+        margin-left: -12px;
+    }
+
+    .password {
+        @include flex-center;
+        flex-direction: row;
+        margin-top: 30px;
+
+        .pass {
+            height: 34px;
+            width: 298px;
+            border: 1px solid $black;
+        }
+
+        .butt {
+            margin-left: 6px;
+        }
+
+        .butom {
+            @include buttom-red (170px, 38px, 19px, 14px, $red);
+            border: none;
+            margin-left: -2px;
+            margin-top: -6px;
+        }
+    }
+
+}
+
+.hr {
+    background: red;
+    color: red;
+    margin-top: 99px;
+}
+
+.foot {
+    height: 224px;
+    @include flex-center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 100%;
+
+    .box {
+        @include flex-center;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 97%;
+        max-width: 940px;
+
+
+        .left {
+            width: 24%;
+            height: 180px;
+            @include text (16px, $red);
+            text-align: start;
+            margin-top: -1px;
+        }
+
+        .left1 {
+            width: 24%;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            @include h2black (14, $black);
+            align-items: flex-start;
+            margin-left: 14px;
+            .ap{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            
+
+            .a {
+                @include text (14px, $black);
+                margin-top: 14px;
+            }
+        }
+        .ap3{
+            display: none;
+        }
+        .ap2{
+            display: none;
+        }
+        }
+
+        .right {
+            width: 24%;
+            height: 180px;
+            @include h2black (14, $black);
+            text-align: start;
+            margin-left: 11px;
+        }
+
+        .right1 {
+            @include h2black (12px, $black);
+            width: 24%;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-left: 10px;
+            margin-top: -2px;
+
+
+
+            .img {
+                width: 110px;
+                margin-top: 6px;
+            }
+        }
+    }
+}

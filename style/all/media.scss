@@ -1,0 +1,987 @@
+@import "reset.scss";
+@import "mixin.scss";
+@import "fonds.scss";
+@import "style.scss";
+
+
+
+@media (min-width:769px) {
+
+
+    main .meet .conteiner3 .big {
+        display: flex;
+    }
+    .meet .conteiner3 .big .card3-1{
+        display: none;
+    }
+    main .meet .conteiner3 .too {
+        display: none;
+    }
+
+    main .meet .conteiner3 .too2 {
+        display: none;
+    }
+
+    .discover {
+        .header {
+            font-size: 22px;
+            margin-top: 90px;
+        }
+
+        .conteiner4 {          
+
+            .topp {
+                width: 100%;
+
+                .top {
+                    width: 236px;
+                    height: 310px;
+                    background-image: url(../img/1\(1440\).png);
+                }
+
+                .top1 {
+                    width: 236px;
+                    height: 310px;
+                    margin-right: 19px;
+                    margin-left: 20px;
+                    background-image: url(../img/2\(1440\).png);
+                }
+
+                .top2 {
+                    width: 236px;
+                    height: 310px;
+                    margin-left: 5px;
+                    background-image: url(../img/3\(1440\).png);
+                }
+            }
+
+
+            .center {
+                margin-top: 20px;
+                width: 100%;
+
+                .center1 {
+                    width: 246px;
+                    height: 310px;
+                    background-image: url(../img/4\(1440\).png);
+                }
+
+                .center2 {
+                    width: 512px;
+                    height: 310px;
+                    margin-right: 0;
+                    background-image: url(../img/5\(1440\).png);
+                }
+            }
+
+            .buttomm {
+                width: 100%;
+
+                .buttom1 {
+                    width: 534px;
+                    height: 310px;
+                    background-image: url(../img/6\(1440\).png);
+                }
+
+                .buttom2 {
+                    width: 256px;
+                    height: 310px;
+                    margin-right: 0;
+                    background-image: url(../img/7\(1440\).png);
+                }
+            }
+        }
+    }
+ 
+}
+
+@media (max-width:768px) {
+    header {
+        .conteiner .logo .logoleft {
+            margin-left: -67px;
+        }
+
+        .conteiner .logo .bottom {
+            width: 54%;
+        }
+
+        .conteiner .logo .bottom .login {
+            width: 641px;
+
+            .log {
+                @include text (14px, $White);
+            }
+        }
+
+        .conteiner .logo .bottom .singup .si {
+            margin-left: 10px;
+            height: 33px;
+            @include text (14px, $White);
+        }
+
+        .conteiner .share h1 {
+            margin-left: -2px;
+
+        }
+
+        .conteiner .share .p {
+            margin-top: 20px;
+        }
+    }
+
+    main {
+        .how {
+            .conteiner2 {
+                width: 748px;
+                width: 97%;
+                margin: 0 auto;
+
+            }
+
+            .header {
+                margin-top: 95px;
+                @include h2black (22px, $black);
+            }
+
+            .conteiner2 .pictures .padding .step {
+                height: 20px;
+                @include text (10px, $White);
+                margin-bottom: 9px;
+                margin-left: -3px;
+                letter-spacing: 2px;
+
+            }
+
+            .conteiner2 .pictures .padding .h2in {
+                font-size: 22px;
+                line-height: 15px;
+                margin-left: -2px;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+                margin-top: 34px;
+            }
+
+            .conteiner2 .pictures2 .h2in2 {
+                font-size: 22px;
+                letter-spacing: 1px;
+                line-height: 15px;
+                margin-left: -3px;
+                margin-bottom: 12px;
+                margin-top: 5px;
+            }
+
+
+            .conteiner2 .pictures .padding .p-in {
+                margin-left: -4px;
+                margin-bottom: -6px;
+
+            }
+        }
+
+        .meet {
+            .header1 {
+                margin-top: 91px;
+                font-size: 20px;
+                margin-left: 1px;
+                letter-spacing: 1px;
+
+            }
+
+            .conteiner3 {
+                width: 748px;
+                height: 583px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+
+                .big {
+                    display: none;
+                }
+
+                .too {
+                    margin-left: 100px;
+                    margin-top: -42px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+
+                    .card1 {
+                        margin-top: 41px;
+                        width: 294px;
+                        /* margin-bottom: 61px; */
+                        height: 352px;
+
+                        .p-in2 {
+                            margin-top: 24px;
+                            margin-left: -1px;
+                            font-size: 13px;
+                            letter-spacing: -0.3px;
+                            width: 237px;
+                        }
+                    }
+
+                    .card2 {
+                        width: 240px;
+                        height: 256px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        margin-top: -92px;
+                        flex-wrap: nowrap;
+                        margin-left: 26px;
+                    }
+
+                }
+
+                .too2 {
+                    margin-left: 40px;
+                    margin-top: -2px;
+
+                    .card3 {
+                        width: 54%;
+                        height: 222px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        margin-top: 70px;
+
+                        .p-in3 {
+                            margin-top: 29px;
+                            margin-left: 10px;
+                            width: 243px;
+                        }
+                    }
+
+                    .card4 {
+                        width: 57%;
+                        height: 329px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        margin-top: 37px;
+                        margin-left: -5px;
+
+                        .p-in3 {
+                            margin-top: 24px;
+                            width: 236px;
+                        }
+                    }
+                }
+            }
+
+            .buttom {
+                margin-top: -47px;
+                margin-left: 3px;
+
+            }
+
+
+        }
+
+        .discover {
+            .header {
+                font-size: 22px;
+                margin-top: 90px;
+            }
+
+            .conteiner4 {
+                width: 748px;
+                width: 97%;
+
+                .topp {
+                    width: 100%;
+
+                    .top {
+                        width: 236px;
+                        height: 310px;
+                        background-image: url(../img/1\(768\).png);
+                    }
+
+                    .top1 {
+                        width: 236px;
+                        height: 310px;
+                        margin-right: 19px;
+                        margin-left: 21px;
+                        background-image: url(../img/2\(768\).png);
+                    }
+
+                    .top2 {
+                        width: 236px;
+                        height: 310px;
+                        background-image: url(../img/3\(768\).png);
+                    }
+                }
+
+
+                .center {
+                    margin-top: 20px;
+                    width: 100%;
+
+                    .center1 {
+                        width: 246px;
+                        height: 310px;
+                        background-image: url(../img/4\(768\).png);
+                    }
+
+                    .center2 {
+                        width: 512px;
+                        height: 310px;
+                        margin-right: 0;
+                        background-image: url(../img/5\(768\).png);
+                    }
+                }
+
+                .buttomm {
+                    width: 100%;
+
+                    .buttom1 {
+                        width: 534px;
+                        height: 310px;
+                        background-image: url(../img/6\(768\).png);
+                    }
+
+                    .buttom2 {
+                        width: 256px;
+                        height: 310px;
+                        margin-right: 0;
+                        background-image: url(../img/7\(768\).png);
+                    }
+                }
+            }
+        }
+
+        .creat {
+            .header {
+                font-size: 22px;
+                margin-top: 92px;
+                margin-left: 1px;
+            }
+
+            .p {
+                font-size: 16px;
+            }
+
+            .password {
+                margin-top: 27px;
+            }
+        }
+
+
+    }
+
+    footer {
+        .foot {
+            .box {
+                width: 100%;
+
+                .left {
+                    text-align: center;
+                    margin-top: -2px;
+                    margin-left: 6px;
+                }
+
+                .left1 {
+                    font-size: 14px;
+                    align-items: center;
+                    margin-left: 19px;
+
+                    .ap {
+                        display: none;
+                    }
+
+                    .ap3 {
+                        @include text (12px, $black);
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 3px;
+                        margin-left: -31px;
+                        letter-spacing: -0.5px;
+
+                        .a {
+                            font-size: 12px;
+                            margin-top: 16px;
+                            margin-left: -2px;
+                            letter-spacing: 0.2px;
+                        }
+
+                        .a1 {
+                            margin-top: 12px;
+                            margin-left: 8px;
+                            font-size: 13px;
+                        }
+
+                        .a2 {
+                            margin-top: 13px;
+                            margin-left: -8px;
+                            font-size: 13px;
+                        }
+
+                        .a3 {
+                            margin-top: 14px;
+                            margin-left: -12px;
+                        }
+                        .a4{
+                            margin-top: 14px;
+                            margin-left: 70px;
+                            font-size: 13px;
+                        }
+                        .a5{
+                            margin-top: 14px;
+                            margin-left: -12px;
+                        }
+
+
+
+                    }
+
+                    .ap2 {
+                        display: none;
+                    }
+                }
+                .right{
+                    font-size: 14px;
+                    width: 19%;
+                    margin-left: 42px;
+                    margin-top: -1px;
+                }
+                .right1{
+                    width: 18%;
+                    margin-left: 7px;
+                    .img{
+                        width: 110px;
+                        margin-top: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:604px) {
+    header {
+        .conteiner {
+            width: 100%;
+            max-width: 310px;
+            margin-left: 10px;
+            background-image: url(../img/Background320.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+
+            .logo {
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+
+                .logoleft {
+                    margin-top: 98px;
+                    margin-bottom: -59px;
+                    margin-left: 15px;
+                }
+
+                .bottom {
+                    width: 54%;
+                    margin-left: -26px;
+                }
+            }
+
+            .share h1 {
+                width: 92%;
+                height: 3px;
+                font-size: 29px;
+                font-weight: 100;
+                margin-top: -52px;
+                margin-bottom: -4px;
+                /* line-height: 54px; */
+                margin-left: 10px;
+                line-height: 39px;
+                letter-spacing: 0.4px;
+
+            }
+
+            .share {
+                height: 64.1%;
+
+                .find {
+                    @include buttom-red (280px, 40px, 20px, 15px, $red);
+                    margin-top: 22px;
+                    margin-left: 13px;
+
+                }
+            }
+
+            .share .p {
+                display: none;
+
+            }
+
+            .share {
+                .p320 {
+                    margin-top: 83px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    letter-spacing: 0.2px;
+                    font-size: 15px;
+                    margin-left: 10px;
+
+
+                    .verh {
+                        @include text (16, $White);
+                        margin-top: -34px;
+                    }
+
+                    .niz {
+                        @include text (16, $White);
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .how {
+            // margin-top: 62px;
+            margin-top: -12px;
+
+            .header {
+                // margin-top: -105px;
+                margin: 0;
+            }
+
+            .conteiner2 {
+                width: 97%;
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 816px;
+
+                .pictures {
+                    background-image: url(../img/Step320.png);
+                    width: 100%;
+                    max-width: 300px;
+                    height: 240px;
+                    // margin-left: 0;
+                    // margin-top: 43px;
+                    margin: 0;
+
+                    .padding {
+                        .step {
+                            margin-bottom: 11px;
+                            margin-left: -3px;
+                        }
+
+                        .h2in {
+
+                            font-size: 21px;
+                            letter-spacing: 27px;
+                            line-height: 15px;
+                            margin-left: -3px;
+                            letter-spacing: 1.9px;
+                            margin-bottom: 16px;
+                            margin-top: 34px;
+                        }
+
+                        .p-in {
+                            @include text (12px, $White);
+                            margin-left: -4px;
+                            margin-bottom: -7px;
+                        }
+                    }
+                }
+
+                .pictures2 {
+                    margin-left: 0;
+                    margin-top: 10px;
+                    background-image: url(../img/Bitmap320.png);
+                    width: 100%;
+                    max-width: 300px;
+                    height: 240px;
+
+                    .padding {
+                        .step {
+                            margin-bottom: 22px;
+                            margin-left: -4px;
+                        }
+
+                        .h2in2 {
+
+                            font-size: 22px;
+                            letter-spacing: 1px;
+                            line-height: 15px;
+                            margin-left: -3px;
+                            margin-bottom: 15px;
+                            margin-top: 5px;
+                        }
+
+                        .p-in {
+                            @include text (13px, $White);
+                            text-align: inherit;
+                            margin-left: -5px;
+                            margin-bottom: -8px;
+                        }
+                    }
+
+                }
+
+                .pictures3 {
+                    margin-left: 0;
+                    margin-top: 10px;
+                    background-image: url(../img/last320.png);
+                    width: 100%;
+                    max-width: 300px;
+                    height: 240px;
+
+                    .padding {
+                        .step {
+                            margin-bottom: 10px;
+                            margin-left: -4px;
+                        }
+
+                        .h2in {
+
+                            font-size: 21px;
+                            letter-spacing: 27px;
+                            line-height: 15px;
+                            margin-left: -3px;
+                            letter-spacing: 1.9px;
+                            margin-bottom: 14px;
+                            margin-top: 34px;
+                        }
+
+                        .p-in {
+                            @include text (12px, $White);
+                            margin-left: -5px;
+                            margin-bottom: -4px;
+                            text-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
+
+        .meet {
+            margin-top: 160px;
+
+            .header1 {
+                margin-top: -1px;
+                font-size: 20px;
+                margin-left: 1px;
+                letter-spacing: 1px;
+                line-height: 27px;
+            }
+
+
+            .conteiner3 {
+                width: 100%;
+                max-width: 320px;
+
+                .too,
+                .too2 {
+                    display: none;
+                }
+
+                .big {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .card1 {
+                        width: 80%;
+                        margin-top: 405px;
+                    }
+
+                    .card3 {
+                        display: none;
+                    }
+
+                    .card3-1 {
+
+                        width: 80%;
+                        margin-top: -35px;
+                    }
+
+                    .card2 {
+                        width: 80%;
+                        margin-top: -16px;
+                    }
+
+                    .card4 {
+                        width: 80%;
+                        margin-top: -35px;
+                    }
+                }
+
+            }
+
+            .buttom {
+                margin-top: 365px;
+                width: 276px;
+            }
+
+
+        }
+
+        .discover {
+            .header {
+                display: block;
+                margin-top: 33px;
+                letter-spacing: -1px;
+                line-height: 27px;
+                width: 67%;
+                font-size: 24px;
+            }
+
+            .conteiner4 {
+                width: 100%;
+
+                .topp,
+                .center,
+                .buttomm {
+                    display: none;
+                }
+
+                .topp2 {
+                    width: 97%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .top {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-image: url(../img/Sport320.png);
+                        background-position: center;
+                        margin-top: 20px;
+                    }
+
+                    .top1 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discaver2\ 320.png);
+                        margin-top: 11px;
+                        margin-bottom: 9px;
+                    }
+
+                    .top2 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discave\ 3\ 320.png);
+                    }
+
+
+                    .center1 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discave\ 4\ 320.png);
+                        margin-top: 9px;
+
+                    }
+
+                    .center2 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discave\ 5\ 320.png);
+                        margin-top: 10px;
+
+                    }
+
+                    .buttom1 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discave\ 6\ 320.png);
+                        margin-top: 10px;
+
+                    }
+
+                    .buttom2 {
+                        width: 97%;
+                        max-width: 300px;
+                        height: 120px;
+                        background-position: center;
+                        background-image: url(../img/discave\ 7\ 320.png);
+                        margin-top: 10px;
+
+                    }
+                }
+            }
+        }
+
+        .creat {
+            .header {
+                margin-top: 47px;
+                width: 93%;
+                font-size: 21px;
+                margin-left: 12px;
+                line-height: 27px;
+                letter-spacing: 0.5px;
+            }
+
+            .p {
+                margin-top: 29px;
+                letter-spacing: -0.1px;
+                font-size: 16px;
+            }
+
+            .password {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 16px;
+
+                .userform {
+                    width: 90%;
+
+                    .pass {
+                        width: 271px;
+                    }
+
+                }
+
+                .butt {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 18px;
+
+                }
+
+                .butom {
+                    width: 283px;
+                }
+            }
+        }
+    }
+
+    footer {
+        .hr {
+            margin-top: 40px;
+            border: 1px solid red;
+        }
+
+        .foot {
+            .box {
+                width: 97%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .left {
+                    width: 90%;
+                    height: 50px;
+                    text-align: center;
+                    margin-top: -18px;
+                    margin-left: 2px;
+                }
+
+                .left1 {
+                    width: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: -19px;
+                    font-size: 15px;
+                    margin-left: -1px;
+                    letter-spacing: -1px;
+
+                    .ap {
+                        display: none;
+                    }
+                    .ap3{
+                        display: none;
+                    }
+
+                    .ap2 {
+                        width: 90%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        @include text (14px, $black);
+
+                        .verh {
+                            margin-top: 9px;
+                            width: 192px;
+                            @include text (13px, $black);
+
+                            .a1 {
+                                margin-left: -15px;
+                                padding-left: 14px;
+                            }
+
+                            .a2 {
+                                padding-left: 14px;
+                            }
+
+                            .a3 {
+                                padding-left: 14px;
+                                margin-left: 1px;
+                            }
+
+                            .a4 {
+                                padding-left: 10px;
+                                margin-left: 5px;
+                            }
+
+                        }
+
+                        .niz {
+                            margin-top: 12px;
+                            width: 157px;
+                            @include text (13px, $black);
+
+                            .a5 {
+                                margin-left: -7px;
+                                letter-spacing: 0.5px;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 90%;
+                    height: 50px;
+                    text-align: center;
+                    margin-top: -103px;
+                    font-size: 14px;
+                    margin-left: -2px;
+                }
+
+                .right1 {
+                    width: 90%;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: -19px;
+                    letter-spacing: 0.5px;
+                    margin-left: 1px;
+
+                    .img {
+                        width: 110px;
+                        margin-top: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

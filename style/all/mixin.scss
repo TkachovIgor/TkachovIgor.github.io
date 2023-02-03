@@ -1,0 +1,41 @@
+@mixin bigcont ($h) {
+    width: 100%;
+    height: $h;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin buttom-red ($w, $h, $r, $s, $color) {
+    width: $w;
+    height: $h;
+    @include flex-center;
+    font-family: 'p-light';
+    font-weight: 100;
+    font-size: $s;
+    text-align: center;
+    color: $White;
+    background-color: $color;
+    border-radius: $r;
+    text-decoration: none;
+}
+
+@mixin h2black ($s, $c) {
+    font-family: 'p-h';
+    font-weight: 100;
+    font-size: $s;
+    text-align: center;
+    color: $c;
+}
+
+@mixin text ($s, $c) {
+    font-family: "p-light";
+    font-weight: 200;
+    font-size: $s;
+    text-align: center;
+    color: $c;
+}
